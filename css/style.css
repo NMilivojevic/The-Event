@@ -2,17 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
 /* BOJE 
     crvena: #f72249
+    hover crvena: #e62145
     teget: #0e184d
     pozadina sekcija: #f7f7fd
     footer: #030919
     copyright sekcija: #101522
 */
 
-/* NAVIGATION */
+/* NAVIGATION *********************************** */
 
 .cta-btn {
     background-color: #f72249;
@@ -20,4 +22,114 @@
     color: #fff !important;
     padding: .5rem 1.5rem !important;
     font-weight: 500;
+    margin-left: .5rem;
+}
+
+.cta-btn:hover {
+    background: #e62145;
+     
+}
+
+.nav-bg {
+    background-color: #0e194d85;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 100;
+}
+
+.nav-bg .active {
+    border-bottom: 2px solid #f72249;
+}
+
+.main-logo {
+    height: 30px;
+    width: auto;
+}
+
+/* HERO SECTION **********************/
+
+.hero-section {
+    background-image: url('./img/intro-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-dark {
+    width: 100%;
+    height: 100%;
+    background-color: #060c22a9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.hero-content {
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section h1 {
+    text-align: center;
+}
+
+.red-text {
+    color: #f72249;
+}
+
+.hero-section p {
+    text-align: center;
+}
+
+.modal-btn {
+    background-color: #f72249;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+
+}
+
+.modal-btn:hover {
+    background-color: #e62145;
+}
+
+.border-btn {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px #fff;
+    border-radius: 200px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.outline-btn {
+    color: #fff;
+    border: 2px solid #f72249;
+    border-radius: 100px;
+    width: fit-content;
+    padding: .3rem 1.7rem;
+    text-decoration: none;
+}
+
+.outline-btn:hover {
+    background-color: #f72249;
+    color: #fff;
+    text-decoration: none;
 }
