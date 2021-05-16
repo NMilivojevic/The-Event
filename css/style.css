@@ -11,3 +11,13 @@
     footer: #030919
     copyright sekcija: #101522
 */
+
+/* NAVIGATION */
+
+.cta-btn {
+    background-color: #f72249;
+    border-radius: 100px;
+    color: #fff !important;
+    padding: .5rem 1.5rem !important;
+    font-weight: 500;
+}
