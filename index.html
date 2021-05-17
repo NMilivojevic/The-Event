@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- bootstrap, icons, css -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- google fonts -->
@@ -14,227 +16,436 @@
 
   <title>TheEvent</title>
 </head>
+
 <body>
+  <!-- GENERAL COMPONENTS -->
+  <a href="#">
+    <i class="bi bi-arrow-up"></i>
+  </a>
+  <!-- NAVIGATION  -->
 
- <!-- NAVIGATION  -->
+  <div class="nav-bg">
+    <nav class="navbar navbar-expand-lg navbar-dark container">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="css/img/logo.png" class="main-logo" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Speakers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link cta-btn" href="#">Buy Tickets</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
 
- <div class="nav-bg">
-  <nav class="navbar navbar-expand-lg navbar-dark container">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="css/img/logo.png" class="main-logo" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Speakers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link cta-btn" href="#">Buy Tickets</a>
-          </li>
-        </ul>
+  <!-- HERO SECTION -->
+
+  <div id="start-page-link" class="hero-section">
+
+    <div class="hero-dark"></div>
+    <div class="hero-content">
+      <h1>THE ANNUAL <br> <span class="red-text"> MARKETING </span>CONFERENCE</h1>
+      <p>10-12 December, Downtown Conference Center, New York</p>
+      <div class="border-btn">
+        <button class="modal-btn">
+          <i class="bi bi-play-fill text-light"></i>
+        </button>
+      </div>
+      <a href="#" class="outline-btn">About The Event</a>
+    </div>
+
+  </div>
+
+  <!-- ABOUT EVENT -->
+
+  <div class="about-event-section">
+
+    <div class="about-dark"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h2>About The Event</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt optio corporis quis! Architecto nam
+            harum sapiente ratione est necessitatibus odit! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Quasi, consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quas. Lorem ipsum dolor
+            sit amet consectetur.
+          </p>
+        </div>
+        <div class="col-3">
+          <h5>WHERE</h5>
+          <p>Downtown Conference Center, New York</p>
+        </div>
+        <div class="col-3">
+          <h5>WHEN</h5>
+          <p>Monday to Wednesday <br> 10-12 December</p>
+        </div>
       </div>
     </div>
-  </nav>
- </div>
 
- <!-- HERO SECTION -->
+  </div>
 
- <div class="hero-section">
+  <!-- EVENT SPEAKERS -->
 
-   <div class="hero-dark"></div>
-   <div class="hero-content">
-     <h1>THE ANNUAL <br> <span class="red-text"> MARKETING </span>CONFERENCE</h1>
-     <p>10-12 December, Downtown Conference Center, New York</p>
-     <div class="border-btn">
-      <button class="modal-btn">
-        <i class="bi bi-play-fill text-light"></i>
-       </button>
-     </div>
-     <a href="#" class="outline-btn">About The Event</a>
-   </div>
+  <div class="event-speakers-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 section-title">
+          <h2>Event Speakers</h2>
+          <p>Here are some of our speakers.</p>
+          <div class="custom-hr"></div>
+        </div>
+      </div>
+    </div>
 
-</div>
-
-<!-- ABOUT EVENT -->
-
-<div class="about-event-section">
-
-  <div class="about-dark"></div>
-  <div class="container">
     <div class="row">
-      <div class="col-6">
-        <h2>About The Event</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt optio corporis quis! Architecto nam harum sapiente ratione est necessitatibus odit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quas. Lorem ipsum dolor sit amet consectetur.
-        </p>
+      <div class="col-4">
+
+        <div class="event-card" style="background-image: url('./css/img/speaker1.jpg');">
+          <div class="event-card-title">
+            <a href="">
+              <h6>Brended Legros</h6>
+            </a>
+            <i>Lorem, ipsum dolor.</i>
+            <div class="d-flex justify-content-center mt-3">
+              <a href=""> <i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-google"></i></a>
+            </div>
+          </div>
+        </div>
+
       </div>
-      <div class="col-3">
-        <h5>WHERE</h5>
-        <p>Downtown Conference Center, New York</p>
+      <div class="col-4">
+
+        <div class="event-card" style="background-image: url('./css/img/speaker2.jpg');">
+          <div class="event-card-title">
+            <a href="">
+              <h6>Legor Hasina</h6>
+            </a>
+            <i>Lorem, ipsum dolor.</i>
+            <div class="d-flex justify-content-center mt-3">
+              <a href=""> <i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-google"></i></a>
+            </div>
+          </div>
+        </div>
+
       </div>
-      <div class="col-3">
-        <h5>WHEN</h5>
-        <p>Monday to Wednesday <br> 10-12 December</p>
+      <div class="col-4">
+
+        <div class="event-card" style="background-image: url('./css/img/speaker3.jpg');">
+          <div class="event-card-title">
+            <a href="">
+              <h6>Pale Kacena</h6>
+            </a>
+            <i>Lorem, ipsum dolor.</i>
+            <div class="d-flex justify-content-center mt-3">
+              <a href=""> <i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-google"></i></a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
+    <div class="row mt-4">
+      <div class="col-4">
+
+        <div class="event-card" style="background-image: url('./css/img/speaker4.jpg');">
+          <div class="event-card-title">
+            <a href="">
+              <h6>Orestis Kamamda</h6>
+            </a>
+            <i>Lorem, ipsum dolor.</i>
+            <div class="d-flex justify-content-center mt-3">
+              <a href=""> <i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-google"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-4">
+
+        <div class="event-card" style="background-image: url('./css/img/speaker5.jpg');">
+          <div class="event-card-title">
+            <a href="">
+              <h6>Karlos Rus</h6>
+            </a>
+            <i>Lorem, ipsum dolor.</i>
+            <div class="d-flex justify-content-center mt-3">
+              <a href=""> <i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-google"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-4">
+
+        <div class="event-card" style="background-image: url('./css/img/speaker6.jpg');">
+          <div class="event-card-title">
+            <a href="">
+              <h6>Misel Mikah</h6>
+            </a>
+            <i>Lorem, ipsum dolor.</i>
+            <div class="d-flex justify-content-center mt-3">
+              <a href=""> <i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-google"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
   </div>
 
-</div>
+  <!-- EVENT SECTION -->
 
-<!-- EVENT SPEAKERS -->
+  <div class="event-section">
 
-<div class="event-speakers-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 section-title">
-        <h2>Event Speakers</h2>
-        <p>Here are some of our speakers.</p>
-        <div class="custom-hr"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 section-title">
+          <h2>Event Schedule</h2>
+          <p>Here is our event schedule</p>
+          <div class="custom-hr"></div>
+        </div>
+        <div class="col-12 d-flex flex-column align-items-center">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                type="button" role="tab" aria-controls="pills-home" aria-selected="true">Day 1</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Day 2</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+                type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Day 3</button>
+            </li>
+          </ul>
+          <i class="w-75 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, praesentium. Lorem
+            ipsum dolor sit, amet consectetur adipisicing elit. Quae, dignissimos?</i>
+          <div class="tab-content w-75" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+              <ul class="list-group w-100 event-item">
+                <li class="list-group-item">
+                  <span>10:00 AM</span>
+                  <div class="speaker-img" style="background-image: url('./css/img/speaker1.jpg');"></div>
+                  <section>
+                    <h6>Lorem ipsum dolor sit amet. <i>Brended Legros</i></h6>
+                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, similique!</i>
+                  </section>
+                </li>
+                <li class="list-group-item">
+                  <span>11:00 AM</span>
+                  <div class="speaker-img" style="background-image: url('./css/img/speaker2.jpg');"></div>
+                  <section>
+                    <h6>Lorem, ipsum dolor. <i>Legor Hasina</i></h6>
+                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, similique!</i>
+                  </section>
+                </li>
+                <li class="list-group-item">
+                  <span>12:00 AM</span>
+                  <div class="speaker-img" style="background-image: url('./css/img/speaker3.jpg');"></div>
+                  <section>
+                    <h6>Lorem ipsum dolor sit amet consectetur. <i>Pale Kacena</i></h6>
+                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, similique!</i>
+                  </section>
+                </li>
+                <li class="list-group-item">
+                  <span>13:00 AM</span>
+                  <div class="speaker-img" style="background-image: url('./css/img/speaker4.jpg');"></div>
+                  <section>
+                    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam? <i>Orestus Kamamda</i></h6>
+                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, similique!</i>
+                  </section>
+                </li>
+                <li class="list-group-item">
+                  <span>14:00 AM</span>
+                  <div class="speaker-img" style="background-image: url('./css/img/speaker5.jpg');"></div>
+                  <section>
+                    <h6>Lorem ipsum dolor sit, amet consectetur adipisicing. <i>Karlos Rus</i></h6>
+                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, similique!</i>
+                  </section>
+                </li>
+                <li class="list-group-item">
+                  <span>15:00 AM</span>
+                  <div class="speaker-img" style="background-image: url('./css/img/speaker6.jpg');"></div>
+                  <section>
+                    <h6>Lorem ipsum dolor sit. <i>Mise Mikah</i></h6>
+                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, similique!</i>
+                  </section>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+              <ul class="list-group w-100 event-item">
+                <li class="list-group-item">
+                  <span>10:00 AM</span>
+                  <div class="speaker-img" style="background-image: url('./css/img/speaker1.jpg');"></div>
+                  <section>
+                    <h6>Lorem ipsum dolor sit amet. <i>Brended Legros</i></h6>
+                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, similique!</i>
+                  </section>
+                </li>
+                <li class="list-group-item">
+                  <span>11:00 AM</span>
+                  <div class="speaker-img" style="background-image: url('./css/img/speaker2.jpg');"></div>
+                  <section>
+                    <h6>Lorem, ipsum dolor. <i>Legor Hasina</i></h6>
+                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, similique!</i>
+                  </section>
+                </li>
+                <li class="list-group-item">
+                  <span>12:00 AM</span>
+                  <div class="speaker-img" style="background-image: url('./css/img/speaker3.jpg');"></div>
+                  <section>
+                    <h6>Lorem ipsum dolor sit amet consectetur. <i>Pale Kacena</i></h6>
+                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, similique!</i>
+                  </section>
+                </li>
+                <li class="list-group-item">
+                  <span>13:00 AM</span>
+                  <div class="speaker-img" style="background-image: url('./css/img/speaker4.jpg');"></div>
+                  <section>
+                    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam? <i>Orestus Kamamda</i></h6>
+                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, similique!</i>
+                  </section>
+                </li>
+                <li class="list-group-item">
+                  <span>14:00 AM</span>
+                  <div class="speaker-img" style="background-image: url('./css/img/speaker5.jpg');"></div>
+                  <section>
+                    <h6>Lorem ipsum dolor sit, amet consectetur adipisicing. <i>Karlos Rus</i></h6>
+                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, similique!</i>
+                  </section>
+                </li>
+                <li class="list-group-item">
+                  <span>15:00 AM</span>
+                  <div class="speaker-img" style="background-image: url('./css/img/speaker6.jpg');"></div>
+                  <section>
+                    <h6>Lorem ipsum dolor sit. <i>Mise Mikah</i></h6>
+                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, similique!</i>
+                  </section>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+              <ul class="list-group w-100 event-item">
+                <li class="list-group-item">
+                  <span>10:00 AM</span>
+                  <div class="speaker-img" style="background-image: url('./css/img/speaker1.jpg');"></div>
+                  <section>
+                    <h6>Lorem ipsum dolor sit amet. <i>Brended Legros</i></h6>
+                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, similique!</i>
+                  </section>
+                </li>
+                <li class="list-group-item">
+                  <span>11:00 AM</span>
+                  <div class="speaker-img" style="background-image: url('./css/img/speaker2.jpg');"></div>
+                  <section>
+                    <h6>Lorem, ipsum dolor. <i>Legor Hasina</i></h6>
+                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, similique!</i>
+                  </section>
+                </li>
+                <li class="list-group-item">
+                  <span>12:00 AM</span>
+                  <div class="speaker-img" style="background-image: url('./css/img/speaker3.jpg');"></div>
+                  <section>
+                    <h6>Lorem ipsum dolor sit amet consectetur. <i>Pale Kacena</i></h6>
+                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, similique!</i>
+                  </section>
+                </li>
+                <li class="list-group-item">
+                  <span>13:00 AM</span>
+                  <div class="speaker-img" style="background-image: url('./css/img/speaker4.jpg');"></div>
+                  <section>
+                    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam? <i>Orestus Kamamda</i></h6>
+                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, similique!</i>
+                  </section>
+                </li>
+                <li class="list-group-item">
+                  <span>14:00 AM</span>
+                  <div class="speaker-img" style="background-image: url('./css/img/speaker5.jpg');"></div>
+                  <section>
+                    <h6>Lorem ipsum dolor sit, amet consectetur adipisicing. <i>Karlos Rus</i></h6>
+                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, similique!</i>
+                  </section>
+                </li>
+                <li class="list-group-item">
+                  <span>15:00 AM</span>
+                  <div class="speaker-img" style="background-image: url('./css/img/speaker6.jpg');"></div>
+                  <section>
+                    <h6>Lorem ipsum dolor sit. <i>Mise Mikah</i></h6>
+                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, similique!</i>
+                  </section>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
+
   </div>
-
-  <div class="row">
-    <div class="col-4">
-
-      <div class="event-card" style="background-image: url('./css/img/speaker1.jpg');">
-        <div class="event-card-title">
-          <a href="">
-            <h6>Brended Legros</h6>
-          </a>
-          <i>Lorem, ipsum dolor.</i>
-          <div class="d-flex justify-content-center mt-3">
-            <a href=""> <i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-google"></i></a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <div class="col-4">
-
-      <div class="event-card" style="background-image: url('./css/img/speaker2.jpg');">
-        <div class="event-card-title">
-          <a href="">
-            <h6>Legor Hasina</h6>
-          </a>
-          <i>Lorem, ipsum dolor.</i>
-          <div class="d-flex justify-content-center mt-3">
-            <a href=""> <i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-google"></i></a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <div class="col-4">
-
-      <div class="event-card" style="background-image: url('./css/img/speaker3.jpg');">
-        <div class="event-card-title">
-          <a href="">
-            <h6>Pale Kacena</h6>
-          </a>
-          <i>Lorem, ipsum dolor.</i>
-          <div class="d-flex justify-content-center mt-3">
-            <a href=""> <i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-google"></i></a>
-          </div>
-        </div>
-      </div>
-
-    </div>
+  <div>
+    <a href=""></a>
   </div>
-  <div class="row mt-4">
-    <div class="col-4">
-
-      <div class="event-card" style="background-image: url('./css/img/speaker4.jpg');">
-        <div class="event-card-title">
-          <a href="">
-            <h6>Orestis Kamamda</h6>
-          </a>
-          <i>Lorem, ipsum dolor.</i>
-          <div class="d-flex justify-content-center mt-3">
-            <a href=""> <i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-google"></i></a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <div class="col-4">
-
-      <div class="event-card" style="background-image: url('./css/img/speaker5.jpg');">
-        <div class="event-card-title">
-          <a href="">
-            <h6>Karlos Rus</h6>
-          </a>
-          <i>Lorem, ipsum dolor.</i>
-          <div class="d-flex justify-content-center mt-3">
-            <a href=""> <i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-google"></i></a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <div class="col-4">
-
-      <div class="event-card" style="background-image: url('./css/img/speaker6.jpg');">
-        <div class="event-card-title">
-          <a href="">
-            <h6>Misel Mikah</h6>
-          </a>
-          <i>Lorem, ipsum dolor.</i>
-          <div class="d-flex justify-content-center mt-3">
-            <a href=""> <i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-google"></i></a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-</div>
-
-<!-- js -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-<!-- added javascript -->
-<script>
-  //poppover 
-  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-    return new bootstrap.Popover(popoverTriggerEl)
-  })
-  // tooltip
-  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  return new bootstrap.Tooltip(tooltipTriggerEl)
-})
-</script>
+  <!-- js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
+  <!-- added javascript -->
+  <script>
+    //poppover 
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+    })
+    // tooltip
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+  </script>
 </body>
+
 </html>
 </body>
+
 </html>

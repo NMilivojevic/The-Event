@@ -55,6 +55,27 @@ a:hover {
     transition: all .3s;
 }
 
+.bi-arrow-up {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #f72249;
+    color: #fff;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+}
+
+.bi-arrow-up:hover {
+    background-color: #7a1d2e;
+    transition: all .3s;
+}
+
 /* NAVIGATION *********************************** */
 
 .cta-btn {
@@ -267,4 +288,79 @@ a:hover {
 .event-card-title a:hover {
     color: #f72249;
     text-decoration: none;
+}
+
+/* EVENT SECTION */
+
+.event-section {
+    background-color: #f7f7fd;
+    padding: 3.5rem 0px;
+}
+
+.event-section .nav-link {
+    border-radius: 100px;
+    padding: .4rem 5rem;
+    background-color: #0e194dea;
+    color: #fff;
+    margin: 0px .4rem;
+    transition: all .4s;
+}
+
+.event-section .nav-link:hover {
+    background-color: rgb(58, 58, 156);
+    transition: all .4s;
+}
+
+.event-section {
+    color: grey;
+}
+
+.event-item {
+    margin-top: 2rem;
+}
+
+.event-section .nav-link.active {
+    background-color: #f72249;
+}
+
+.event-section .list-group-item {
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+}
+
+.speaker-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    margin-right: .4rem;
+    margin-left: 1.5rem;
+}
+
+.event-item .list-group-item {
+    display: flex;
+    align-items: center;
+    transition: all .4s;
+    padding: 1.1rem ;
+}
+
+.event-item .list-group-item:hover {
+    background-color: #fff;
+    transition: all .4s;
+}
+
+.event-item h6 {
+    margin-bottom: .1rem;
+}
+
+.event-item h6 i {
+    color: rgb(82, 82, 190);
+    font-weight: 400;
+}
+
+.event-item i {
+    font-size: .9rem;
 }
