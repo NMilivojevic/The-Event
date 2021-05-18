@@ -534,7 +534,8 @@ a:hover {
 
 .sponsor-logo {
     width: 100%;
-    height: 130px;display: flex;
+    height: 130px;
+    display: flex;
     align-items: center;
     justify-content: center;
     border-right: 1px solid #dfdede;
