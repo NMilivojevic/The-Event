@@ -566,8 +566,3 @@ a:hover {
 .faq-section .accordion-button.collapsed {
     color: black;
 }
-
-.problem:focus:not(:focus-visible) {
-    outline: 0;
-    border: 0px;
-}
