@@ -205,9 +205,9 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
-    position: relative;
     padding: 3rem 0px;
     background-attachment: fixed;
+    position: relative;
 }
 
 .about-event-section h2 {
@@ -225,6 +225,7 @@ a:hover {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 0;
 }
 
 /* ovo sam ja dodala da bi tekst about the event i where i when bili potpuno beli, z-index properti tu pravi neku foru */
@@ -325,8 +326,6 @@ a:hover {
 
 .event-section .list-group-item {
     background-color: transparent;
-    border-left: none;
-    border-right: none;
 }
 
 .speaker-img {
@@ -364,3 +363,87 @@ a:hover {
 .event-item i {
     font-size: .9rem;
 }
+
+/* EVENT GALLERY */
+
+.event-gallery {
+    padding: 3.5rem 0px;
+}
+
+.gallery-top-img {
+    background-image: url('./img/venue-info-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    position: relative;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-dark {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #060c22a9;
+    z-index: 0;
+}
+
+.gallery-small-img {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 190px;
+    transition: all .4s;
+}
+
+.gallery-small-img:hover {
+    background-size: 120%;
+    transition: all .4s;
+}
+
+.event-gallery [class^="col-"] {
+    padding: 2px;
+}
+
+/* HOTELS */
+
+.hotel-section {
+    background-color: #f7f7fd;
+    padding: 3.5rem 0px;
+}
+
+.bi-star-fill {
+    color: orange;
+}
+
+.bi-star-half {
+    color: orange;
+}
+
+.hotel-img {
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 220px;
+}
+
+.hotel-card {
+    background-color: #fff;
+    width: 100%;
+    height: fit-content;
+    border: 1px solid rgb(223, 219, 219);
+}
+
+.hotel-card-body {
+    padding: 1rem;
+}
+
