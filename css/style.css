@@ -523,7 +523,7 @@ a:hover {
 /* SPONSORS SECTION */
 
 .sponsors-section {
-    background-color: #cec8c8;
+    background-color:#f0f0f0 !important;
     padding: 3.5rem 0px;
 }
 .sponsors-section .row-border {
