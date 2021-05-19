@@ -398,6 +398,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .gallery-dark {
@@ -789,9 +790,9 @@ a:hover {
 .footer-section .footer-icons {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    margin-bottom: .7rem;
+    justify-content: space-between;
+    margin-top: 1rem;
+    
 }
 
 .footer-section .bi{
@@ -823,6 +824,109 @@ a:hover {
     color: #f72249;
 }
 
-.footer-end h5 {
+.footer-end h6 {
     color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+/* ! MEDIA QUERY *************************** */
+
+/* XS telefoni otprilike */
+
+@media (max-width: 575.98px) {
+    .mb-small {
+        margin-bottom: 1.1rem;
+    }
+
+    /* ? EVENT SECTION */
+
+    .event-section .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .event-section .nav .nav-item {
+        margin-bottom: .4rem;
+    }
+
+    .event-section .list-group .list-group-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .event-section .speaker-img {
+        margin: .5rem 0px .7rem 0px;
+    }
+
+     .event-section .list-group .list-group-item h6 {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .event-section .list-group .list-group-item i {
+         margin-top: .5rem;
+     }
+
+     /* ? EVENT GALLERY */
+
+     .event-gallery .gallery-small-img {
+         height: 130px;
+     }
+
+     /* ? HOTELS */
+
+     .hotel-section .hotel-card-body {
+         text-align: center;
+     }
+
+     /* ? CONTACT SECTION*/
+
+     .contact-section .contact-card {
+         height: 80px;
+         border: none;
+     }
+
+     .contact-section .contact-body {
+         padding: 0px 15px;
+         margin-top: 2rem;
+     }
+
+     /* ? FOOTER SECTION */
+
+     .footer-section {
+         padding: 3.5rem 1.5rem;
+     }     
+
+}
+
+
+
+
+/* SM */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* MD */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* LG */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* XL */
+
+@media (min-width: 1200px) and (max-width: 3000px) {
+
 }
