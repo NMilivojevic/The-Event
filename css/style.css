@@ -567,7 +567,7 @@ a:hover {
 .accordion-button:not(.collapsed) {
     background-color: transparent;
     box-shadow: none;
-    color: #f72249;
+    color: black;
 } 
 
 .accordion-item {
@@ -602,6 +602,7 @@ a:hover {
 .bi-plus-lg:active {
     transition: all .3s;
 }
+
 
 /* NEWSLETTER SECTION */
 
@@ -790,7 +791,7 @@ a:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
-    margin-top: 1rem;
+    margin-bottom: .7rem;
 }
 
 .footer-section .bi{
