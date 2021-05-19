@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    height: 3000px;
+    height: 6000px;
 }
 
 h2 {
@@ -554,16 +554,45 @@ a:hover {
 
 /* FAQ SECTION */
 
-.faq-section {
-    padding: 3.5rem 0px;
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+    color: #f72249;
+} 
+
+.accordion-item {
+    border: 0px;
 }
 
-.faq-section .accordion-button {
+.accordion-button {
+    border-bottom: 1px solid lightgrey;
+    display: inline;
     padding-left: 0px;
-    color: red;
-    font-weight: 500;
 }
 
-.faq-section .accordion-button.collapsed {
-    color: black;
+.accordion-button:focus {
+    box-shadow: none;
+    border-bottom: 1px solid lightgrey;
 }
+
+.accordion-button.collapsed::after {
+    visibility: hidden;
+ }
+ 
+ .accordion-button::after {
+    visibility: hidden;
+ }
+
+.bi-plus-lg {
+    float: right;
+    margin-right: 10px;
+    transition: all .3s;
+}
+
+.bi-plus-lg:active {
+    transition: all .3s;
+}
+
+/* NEWSLETTER SECTION */
+
+
