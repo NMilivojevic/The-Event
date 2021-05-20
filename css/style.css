@@ -899,12 +899,10 @@ a:hover {
      /* ? FOOTER SECTION */
 
      .footer-section {
-         padding: 3.5rem 1.5rem;
+         padding: 2rem 15px;
      }     
 
 }
-
-
 
 
 /* SM */
@@ -913,15 +911,69 @@ a:hover {
 
 }
 
-/* MD */
+/* MD iPAD uredjaji */
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+       
+    .mb-small {
+        margin-bottom: 1.4rem;
+    }
+
+    /* ? HERO SECTION */
+
+    .hero-section {
+        height: 70vh;
+    }
+
+    /* ? EVENT SECTION */
+
+    .event-section .w-75 {
+        width: 100% !important;
+    }
+
+    /* ? HOTELS */
+
+    .hotel-section .hotel-card-body {
+        text-align: center;
+    }
+
+    .hotel-section .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* ? TICKETS */
+    
+    .tickets-section .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* ? CONTACT */
+
+     .contact-section .contact-card {
+         height: 100px;
+         border: none;
+     }
+
+     /* ? FOOTER */
+
+     .footer-section {
+         padding: 2rem 15px;
+     }   
+
+
 
 }
 
-/* LG */
+/* LG IPAD PRO */
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+     /* ? HERO SECTION */
+
+    .hero-section {
+        height: 65vh;
+    }
 
 }
 
