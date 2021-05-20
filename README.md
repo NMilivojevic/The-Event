@@ -1,2 +1,3 @@
 # TheEvent-
-Bootstrapv5.0.1 website mixed with CSS. Practicing landing page layout mostly.
+
+![alt text](https://github.com/[Nevena-Milivojevic]/[TheEvent-Bootstrapv5.0.1-website-]/blob/[master]/web-design mock.jpg?raw=true)
