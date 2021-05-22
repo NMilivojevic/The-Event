@@ -22,7 +22,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     overflow-x: hidden;
+    overflow-x: hidden;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -131,6 +131,35 @@ a:hover {
 .main-logo {
     height: 30px;
     width: auto;
+}
+
+.navbar .show .navbar-nav li:last-child {
+    padding: 0;
+    position: absolute;
+    bottom: 0px;
+    margin-left: -15px;
+    margin-bottom: 10px;
+}
+
+.navbar .show .navbar-nav .cta-btn {
+    margin-left: 0px !important;
+    width: fit-content !important;
+    transition: opacity .7s;  
+    opacity: 1;
+}
+
+.navbar .show {
+    height: 170px !important;
+}
+
+.navbar .collapsing .navbar-nav .cta-btn {
+    margin-left: 0px !important;
+    width: fit-content !important;
+    opacity: 0;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 
 /* HERO SECTION **********************/
@@ -856,6 +885,10 @@ a:hover {
         height: 30px;
         margin-right: 10px;
     }
+
+    /* ? NAVBAR SECTION */
+
+  
 
      /* ? ABOUT SECTION */
 
